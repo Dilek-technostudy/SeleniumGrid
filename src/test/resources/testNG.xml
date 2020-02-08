@@ -1,0 +1,23 @@
+<suite name="All Test Suite">
+    <parameter name="username" value="nigeria_tenant_admin"/>
+    <parameter name="password" value="TnvLOl54WxR75vylop2A"/>
+
+    <test name="Test firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="SimpleTest"/>
+        </classes>
+    </test>
+    <test name="Test safari">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="SimpleTest"/>
+        </classes>
+    </test>
+    <test name="Test chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="SimpleTest"/>
+        </classes>
+    </test>
+</suite>
