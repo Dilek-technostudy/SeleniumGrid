@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <parameter name="username" value="nigeria_tenant_admin"/>
     <parameter name="password" value="TnvLOl54WxR75vylop2A"/>
@@ -5,19 +7,19 @@
     <test name="Test firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="SourceLabs"/>
+            <class name="TestingBot"/>
         </classes>
     </test>
     <test name="Test safari">
         <parameter name="browser" value="safari"/>
         <classes>
-            <class name="SourceLabs"/>
+            <class name="TestingBot"/>
         </classes>
     </test>
-    <test name="SourceLabs">
+    <test name="Test chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="SimpleTest"/>
+            <class name="TestingBot"/>
         </classes>
     </test>
 </suite>
